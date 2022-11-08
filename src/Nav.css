@@ -1,0 +1,31 @@
+.nav {
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  transition: all 0.5s;
+}
+
+.nav_logo {
+  object-fit: contain;
+  width: 80px;
+}
+
+.nav_avatar {
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav_button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav_black {
+  background-color: rgba(17, 17, 17, 0.9);
+}
